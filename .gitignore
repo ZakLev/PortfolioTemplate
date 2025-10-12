@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+# This is common for Node.js projects, where dependencies can be reinstalled with `npm install`.
+
+# Production build output
+dist/
+build/
+# Directories that contain your project's minified, bundled, or compiled output. You only need to commit the source files.
+
+# Sensitive and private information
+# These files should never be committed to a public repository
+.env
+.env.*
+# Use this for storing API keys, credentials, and other secrets.
+
+# Editor and IDE files
+# These files are specific to your local setup and should not be shared.
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+# This includes configurations for common editors like VS Code and Sublime Text.
+
+# Operating System files
+# Automatically generated files that are specific to your OS.
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+# Logs are not needed in version control.
+
+# Image and media source files (optional)
+# Only add these if you keep large, original images or PSDs in the project folder but don't want them tracked.
+*.psd
+*.ai
+# The final, web-optimized image versions should still be committed.
